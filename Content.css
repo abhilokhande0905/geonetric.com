@@ -1,0 +1,77 @@
+.pradip{
+    height: 500px;
+    width: 100%;
+    /* padding: 0px; */
+    background-image: url(https://st3.depositphotos.com/5897520/34125/i/450/depositphotos_341250474-stock-photo-virus-in-dark-tone-3d.jpg);
+    background-size: 100% 100%;
+    
+}
+   .image{
+    height: 350px;
+    width: 100%;
+    background-image: url(https://storecms.blob.core.windows.net/uploads/51b69245-62b1-4889-af1f-1a498bd995ca-young-man-coding.jpg);
+    background-size: 100% 100%;
+    margin-top: 30px;
+   }
+
+.sliderimage{
+    height: 350px;
+    width: 100%;
+    background-color:hsla(240, 100%, 5%, 0.5);
+    background-size: 100% 100%;
+    margin-top: 30px;
+   }
+
+
+.card :hover{
+    background-color: orangered;
+    color: white;
+}
+.btn btn-danger{
+    width: 10%;
+}
+.background_6{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(17,17,17);
+}
+.background_7{
+    height: 60px;
+    width: 100%;
+    background-color: #76232F;
+}
+.icons_1{
+     height: 60px;
+    border-radius: 50%;
+    background-color: #76232F;
+    width: 60px;
+    border: none; 
+    color: white;
+    font-size: 26px;
+}
+
+@media(max-width:667px){
+    .background_6{
+        height: 800px;
+        width: 100%;
+        background-color: rgb(17,17,17);
+    }
+    .footer_name{
+        position: relative;
+        top: 10px;
+    }
+    .card_footer_2{
+       display: none;
+    }
+    .card_footer_3{
+        position: relative;
+        top: 50px;
+        border-top: 1px solid white;
+     }
+     .icons_1{
+        margin-top: 30px;
+     }
+    body{
+        overflow-x: hidden;
+    }   
+}

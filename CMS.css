@@ -1,0 +1,297 @@
+h4{
+	color:brown;
+	padding:5px;
+	font-weight:450;
+	margin-left:0px;
+
+}
+li{
+	color: brown;
+	font-weight:400;
+	padding:3px;
+
+}
+.img1{
+	height:350px;
+	width:450px;
+	float: left;
+	margin-left:60px;
+	margin-top:30px;
+
+}
+.d1{
+	height:400px;
+	width:100%;
+	float: left;
+	padding-left:30px;
+	padding-right:30px;
+	background-color:lightgrey;
+
+}
+.d2{
+	width:30%;
+	height:400px;
+	float: left;
+/*	background-color:orange;*/
+}
+.d3{
+	width:70%;
+	height:400px;
+	float: left;
+/*	background-color: yellow;*/
+}
+.d3 h1{
+	margin-top:70px;
+	font-family:sans;
+	color: brown;
+	font-size:45px;
+		font-weight:400;
+
+}
+.d3 pre{
+	margin-top: 40px;
+font-family:sans-serif;
+font-size:15px;
+margin-left: 100px;
+word-spacing:3px;
+}
+.d3 button{
+	background-color: brown;
+	border-radius:30px;
+	color: white;
+	font-size:18px;
+	height:40px;
+	width:300px;
+	margin-left:100px;
+	margin-top:30px;
+
+}
+.background_6{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(17,17,17);
+}
+.background_7{
+    height: 60px;
+    width: 100%;
+    background-color: #76232F;
+}
+.icons_1{
+     height: 60px;
+    border-radius: 50%;
+    background-color: #76232F;
+    width: 60px;
+    border: none; 
+    color: white;
+    font-size: 26px;
+}
+.ah1 h1{
+
+	font-family:sans;
+	color: brown;
+	font-size:45px;
+	text-align: center;
+	margin-left:220px;
+	margin-top:40px;
+	margin-bottom:40px;
+	font-weight:300;
+}
+.nav_1{
+/*    top: 0px;
+    right: 0px;
+    left: 0px;
+    width: 99%;
+    float: right;
+    position: absolute;*/
+    float:left;
+    width:100%;
+    background-color: #e7e8e873;
+}
+.border_1:hover{
+    border-bottom: 2px solid black;
+ }
+ .background1{
+ 	background-image:url('https://www.geonetric.com/wp-content/uploads/VitalSite-1.jpg');
+ 	height:500px;
+ 	width:100%;
+ 	background-size: cover;
+ 
+ 	color: white;
+ }
+
+.background1 button{
+	background-color: brown;
+	border-radius:30px;
+	color: white;
+	font-size:18px;
+	height:40px;
+	width:300px;
+	margin-left:550px;
+	margin-top:30px;
+
+}
+*{
+	margin:0px;
+	padding:0px;
+	overflow-x:hidden;
+}
+
+.ah2 h1{
+
+	font-family:sans;
+	color: brown;
+	font-size:45px;
+	text-align: center;
+	margin-left:400px;
+	margin-top:40px;
+	margin-bottom:40px;
+	font-weight:300;
+}
+.img3{
+	height:150px;
+	width:100%;
+	float: left;
+	
+}
+.c2 img{
+	height:150px;
+	width:170px;
+	clear: left;
+	overflow-y: hidden;
+	margin-left:20px;
+}
+.ah3 h1{
+
+	font-family:sans;
+	color: brown;
+	font-size:45px;
+	text-align: center;
+	margin-left:400px;
+	margin-top:40px;
+	margin-bottom:40px;
+	font-weight:300;
+}
+
+
+.img4{
+	height:400px;
+	width:50%;
+	float: left;
+}
+.menu{
+	height:350px;
+	width:100%;
+	float: left;
+
+}
+.menu1{
+	height:350px;
+	width:50%;
+	float: left;
+/*	background-color: blue;*/
+
+}
+.menu1 img{
+	height:350px;
+	width:600px;
+	margin-left:100px;
+}
+.menu2{
+	height:350px;
+	width:50%;
+	float: left;
+/*	background-color:yellow;*/
+
+
+}
+.menu2 h1{
+	text-align: center;
+	color: brown;
+	font-weight: 100;
+	margin-top:40px;
+	font-size:30px;
+	overflow-y:hidden ;
+
+}
+.menu2 p{
+text-align:justify-all;
+font-family:sans-serif;
+margin-top:30px;
+margin-left:100px;
+}
+.m{
+	height:350px;
+	width:100%;
+	float: left;
+
+}
+.m1{
+	height:350px;
+	width:50%;
+	float: left;
+/*	background-color: blue;*/
+
+}
+.m1 img{
+	height:350px;
+	width:600px;
+	margin-left:px;
+}
+.m2{
+	height:350px;
+	width:50%;
+	float: left;
+/*	background-color:yellow;*/
+
+
+}
+.m2 h1{
+	text-align:center;
+	color: brown;
+	font-weight: 100;
+	margin-top:30px;
+	font-size:30px;
+	overflow-y:hidden ;
+
+}
+.m2 p{
+text-align: center;
+font-family:sans-serif;
+margin-top:30px;
+margin-left:100px;
+}
+
+.card-body .hh4:hover{
+	background-color:brown;
+	color: white;
+}
+.card-body:hover{
+	background-color: brown;
+	color: white;
+}
+.card-body a:hover{
+	color: white;
+}
+
+@media(max-width:667px){
+	.background_6{
+        height: 800px;
+        width: 100%;
+        background-color: rgb(17,17,17);
+    }
+    .footer_name{
+        position: relative;
+        top: 10px;
+    }
+    .card_footer_2{
+       display: none;
+    }
+    .card_footer_3{
+        position: relative;
+        top: 50px;
+        border-top: 1px solid white;
+     }
+     .icons_1{
+        margin-top: 30px;
+     }
+}

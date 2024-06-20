@@ -1,0 +1,103 @@
+/*by Sanket Kadam*/
+li{
+    color: brown;
+}
+h3 h2{
+    color: brown;
+}
+#Services_top_bg{
+    background-image: url(https://www.geonetric.com/wp-content/uploads/services-1.jpg);
+    height: 500px; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+#navbarNav a{
+    color: brown;
+}
+#Services_top_bg h1{
+    padding-top: 10%;
+}
+
+#Services_top_bg p{
+      font-size: x-large;
+}
+#p_body{
+    color: gray;
+}
+#cont_btn{
+    background-color: brown; 
+    color: white; 
+    margin-left: 20%;
+}
+@media only screen and (max-width: 700px) {
+    #id2{
+        display: none;
+    }
+    
+}
+    @media only screen and (min-width: 700px) {
+    #id1{
+        display:none;
+    }
+}
+/*By Abhi Lokhande*/
+/*Nav bar*/
+.nav_1{
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
+    float: right;
+    position: absolute;
+    opacity: 1;
+}
+.border_1:hover{
+    border-bottom: 2px solid black;
+}
+/*Footer*/
+.background_6{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(17,17,17);
+}
+.background_7{
+    height: 60px;
+    width: 100%;
+    background-color: #76232F;
+}
+.icons_1{
+     height: 60px;
+    border-radius: 50%;
+    background-color: #76232F;
+    width: 60px;
+    border: none; 
+    color: white;
+    font-size: 26px;
+}
+
+@media(max-width:667px){
+    .background_6{
+        height: 800px;
+        width: 100%;
+        background-color: rgb(17,17,17);
+    }
+    .search{
+        display: none !important;
+     }
+    .footer_name{
+        position: relative;
+        top: 10px;
+    }
+    .card_footer_2{
+       display: none;
+    }
+    .card_footer_3{
+        position: relative;
+        top: 50px;
+        border-top: 1px solid white;
+     }
+     .icons_1{
+        margin-top: 30px;
+     }
+}

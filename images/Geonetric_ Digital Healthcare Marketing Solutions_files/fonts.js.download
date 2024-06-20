@@ -1,0 +1,8 @@
+var MTIProjectId='31ef63a4-7de7-4c50-b520-9b0f0c7b7351';
+(function() {
+       var mtiTracking = document.createElement('script');
+       mtiTracking.type='text/javascript';
+       mtiTracking.async='true';
+        mtiTracking.src= '/wp-content/themes/geo/fonts/mtiFontTrackingCode.js';
+       (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+  })();

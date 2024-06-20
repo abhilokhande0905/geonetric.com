@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	overflow-x: hidden;
+}.nav_1{
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
+    float: right;
+    position: absolute;
+    background-color: #e7e8e873;
+}
+.border_1:hover{
+    border-bottom: 2px solid black;
+ }
+
+
+
+.Background_img{
+    height:90vh;
+    width: 100%;
+}
+
+/* main image */
+@media(max-width:667px){
+    
+    .Background_img{
+        height:70vh !important;
+        width: 100%;
+        background-size: contain;
+        background-size:  400px 400px;
+    }  
+    .search{
+        display: none !important;
+     }  
+}
+/* logo image */
+@media(max-width:667px){
+    
+    .helth_logo{
+       height: 300px;
+    }    
+}
+
+.background_div{
+    height: 840px;
+    width: 100%;
+    background-color: rgb(250, 246, 246);
+}
+/* background_div */
+@media(max-width:667px){
+    
+    .background_div{
+       height: 1970px;
+    }    
+}
+
+/* footer part css */
+
+.background_6{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(17,17,17);
+}
+.background_7{
+    height: 60px;
+    width: 100%;
+    background-color: #76232F;
+}
+.icons_1{
+     height: 60px;
+    border-radius: 50%;
+    background-color: #76232F;
+    width: 60px;
+    border: none; 
+    color: white;
+    font-size: 26px;
+}
+
+@media(max-width:667px){
+    
+    .background_6{
+        height: 800px;
+        width: 100%;
+        background-color: rgb(17,17,17);
+    }
+    .footer_name{
+        position: relative;
+        top: 10px;
+    }
+    .card_footer_2{
+       display: none;
+    }
+    .card_footer_3{
+        position: relative;
+        top: 50px;
+        border-top: 1px solid white;
+     }
+     .icons_1{
+        margin-top: 30px;
+     }
+}
+
+
+

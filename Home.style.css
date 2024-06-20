@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+    height: 739px;
+    width: 100%;
+    background-image: url(https://www.geonetric.com/wp-content/uploads/Geonetric-Digital-Experiences.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_info{
+    margin-top: 400px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.info{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.nav_1{
+    float: right;
+    background-color: #e7e8e873;
+}
+.border_1:hover{
+    border-bottom: 2px solid black;
+ }
+.bg_img_1{
+    margin-left: 1050px;
+    margin-top: -500px;
+}
+.button{
+    background-color: #76232F;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+}
+.button:hover{
+    background-color: black;
+}
+.button_2{
+    background-color: #76232F;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    width: 300px;
+    border-radius: 16px;
+}
+
+.button_2:hover{
+    background-color: black;
+}
+.border_b{
+    border-left: 3px solid black;
+}
+.card-body :hover{
+    color: aqua;
+}
+.bg_info{
+    position: absolute;
+    top: 150px;
+    left: 186px;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+.bg_info_2{
+    margin-top: -450px;
+    font-weight: bold;
+    color: black;
+    margin-left: 170px;
+}
+.bg_info_3{
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+    margin-left: 170px;
+    text-align: justify;
+}
+.background_2{
+    height: 650px;
+    width: 100%;
+    background-image: url(https://www.geonetric.com/wp-content/uploads/working-in-cafe-sm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background_3{
+    height: 500px;
+    width: 100%;
+    background-image: url(https://www.geonetric.com/wp-content/uploads/Topographic-Lines.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background_4{
+    height: 700px;
+    width: 100%;
+    background-image: url(https://www.geonetric.com/wp-content/uploads/office-collaboration.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background_5{
+    height: 550px;
+    width: 100%;
+    background-color: rgb(240,240,240);
+}
+.background_6{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(17,17,17);
+}
+.background_7{
+    height: 60px;
+    width: 100%;
+    background-color: #76232F;
+}
+.icons_1{
+     height: 60px;
+    border-radius: 50%;
+    background-color: #76232F;
+    width: 60px;
+    border: none; 
+    color: white;
+    font-size: 26px;
+}
+@media(max-width:667px){
+    .background{
+        height: 465px;
+        width: 102%;
+    } 
+    .img_info{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 180px;
+        margin-right: 100px;
+    } 
+    .info{
+        display: none;
+    }
+    .border_1:hover{
+        border: none;
+     }
+    .button{
+          margin-right: 100px;
+     }
+     .search{
+        display: none !important;
+     }
+     .bg_img_1{
+       display: none;
+    }
+    .border_b{
+       border-left: none;
+       border-top: 3px solid black;
+    }
+    .border_b h4{
+        margin-top: 30px;
+        text-align: justify;
+        font-size: 25px;
+     }
+     .background_2{
+        height: 550px;
+        width: 100%;
+
+     }
+     .background_2 button{
+       display: none;
+     }
+     .bg_img_2{
+        height: 500px;
+        width: 300px;
+     }
+     .bg_info{
+        position: absolute;
+        top: 150px;
+        left: 76px;
+        font-size: 24px;
+        color: black;
+        font-weight: bold;
+    }
+    .bg_info_2{
+        margin-top: -450px;
+        font-weight: bold;
+        color: black;
+        margin-left: 65px;
+    }
+    .bg_info_3{
+        margin-top: 20px;
+        font-weight: bold;
+        color: black;
+        margin-left: 70px;
+        text-align: justify;
+    }
+    .main_img{
+       margin-left: -20px;
+    }
+
+    .background_3{
+       height: 960px;
+       width: 100%;
+    }
+     .background_4{
+        height: 700px;
+        width: 99%;
+        margin-top: 10px;
+    }
+    .background_5{
+        height: 1400px;
+        width: 100%;
+        background-color: rgb(240,240,240);
+    }
+    .background_6{
+        height: 800px;
+        width: 100%;
+        background-color: rgb(17,17,17);
+    }
+    .footer_name{
+        position: relative;
+        top: 10px;
+    }
+    .card_footer_2{
+       display: none;
+    }
+    .card_footer_3{
+        position: relative;
+        top: 50px;
+        border-top: 1px solid white;
+     }
+     .icons_1{
+        margin-top: 30px;
+     }
+    body{
+        overflow-x: hidden;
+    }   
+}

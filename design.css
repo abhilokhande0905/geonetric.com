@@ -1,0 +1,431 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+
+.nav_1{
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
+    float: right;
+    position: absolute;
+    background-color: #e7e8e873;
+}
+.border_1:hover{
+    border-bottom: 2px solid black;
+ }
+
+
+
+
+
+.design{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://www.geonetric.com/wp-content/uploads/web-design.jpg");
+    background-size: cover;
+    /* filter: brightness(50%) */
+}
+
+.h1{
+    font-size: 60px;
+    margin-top: 180px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: white;
+    
+}
+
+.p{
+   font-size:25px ;
+}
+
+.btn{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #79242f;
+    color: white;
+    margin-left:600px ;
+    border: none;
+}
+
+.btn:hover{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #afc6df;
+    color: #79242f;
+    margin-left:600px ;
+    border: 2px solid #79242f;
+
+}
+
+@media(max-width:667px){
+    .design{
+        height: 400px;
+        width: 100%;
+        background-image: url("https://www.geonetric.com/wp-content/uploads/web-design.jpg");
+        background-size: cover;
+        /* filter: brightness(50%) */
+    }
+    
+    .h1{
+        font-size: 40px;
+        margin-top: 180px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        
+    }
+    
+    .p{
+       font-size:20px ;
+    }
+    
+    .btn{
+        height: 50px;
+        width: 200px;
+        border-radius: 20px;
+        background-color: #79242f;
+        color: white;
+        margin-left:150px;
+        border: none;
+    }
+    
+    
+    .border_1:hover{
+        border: none;
+    }
+
+
+
+}
+
+
+
+/* ==================================== */
+
+
+.book{
+    margin-top: -150px;
+}
+
+.btn1{
+    height: 45px;
+    width: 270px;
+    background-color: #79242f;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn1:hover{
+    height: 45px;
+    width: 270px;
+    background-color: #afc6df;
+    color: #79242f;
+    border-radius: 20px;
+    border: 2px solid #79242f ;
+}
+
+@media(max-width:667px){
+    .book{
+        margin-top: 50px;
+    }
+    
+}
+
+
+
+/* ================================ */
+
+.slider1{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://www.geonetric.com/wp-content/uploads/Evergreen.jpg");
+}
+
+.slider2{
+    height: 500px;
+    width: 100%;
+    background-image:url("https://www.geonetric.com/wp-content/uploads/MaryGreeley.jpg") ;
+}
+
+.slider3{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://www.geonetric.com/wp-content/uploads/Virginia-Hospital-Center.jpg");
+}
+
+.slider4{
+    height: 500px;
+    width: 100%;
+    background-image:url("https://www.geonetric.com/wp-content/uploads/Grand-River-Banner.png");
+}
+
+.text{
+    margin-left: 50px;
+    color: white;
+    margin-top: 100px;
+    font-size: 50px;
+    text-align-last:center;
+}
+
+.red{
+    font-size: 20px;
+    margin-left: 50px;
+    text-align-last:center;
+
+}
+
+.a{
+    font-size:30px;
+    color: white;
+    margin-left:680px ;
+}
+
+
+@media(max-width:667px){
+    .slider1{
+        height: 500px;
+        width: 100%;
+        background-image: url("https://www.geonetric.com/wp-content/uploads/Evergreen.jpg");
+    }
+    
+    .slider2{
+        height: 500px;
+        width: 100%;
+        background-image:url("https://www.geonetric.com/wp-content/uploads/MaryGreeley.jpg") ;
+    }
+    
+    .slider3{
+        height: 500px;
+        width: 100%;
+        background-image: url("https://www.geonetric.com/wp-content/uploads/Virginia-Hospital-Center.jpg");
+    }
+    
+    .slider4{
+        height: 500px;
+        width: 100%;
+        background-image:url("https://www.geonetric.com/wp-content/uploads/Grand-River-Banner.png");
+    }
+    
+    .text{
+        margin-left: 50px;
+        color: white;
+        margin-top: 100px;
+        font-size: 30px;
+        text-align-last:center;
+    }
+    
+    .red{
+        font-size: 15px;
+        margin-left: 50px;
+        text-align-last:center;
+    
+    }
+    
+    .a{
+        font-size:30px;
+        color: white;
+        margin-left:200px;
+    }
+
+    .sur{
+        width: 100%;
+        height: 250px;
+        margin-left:0px ;
+        margin-top: 20px;
+   }
+
+   .ben{
+    color: #79242f;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+}
+
+.sur{
+     width: 571px;
+     height: 250px;
+     margin-left:20px ;
+}
+
+.ben{
+    color: #79242f;
+    margin-left: 80px;
+}
+
+.para{
+    margin-left: 80px;
+
+}
+.ben:hover{
+    color: #afc6df;
+    
+}
+
+/* ===================================== */
+
+.four{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://www.geonetric.com/wp-content/uploads/website-plan2.jpg");
+}
+
+.step{
+    margin-left:380px;
+    margin-top: 100px;
+    color: white;
+}
+
+.read{
+    color: white;
+    margin-left: 700px;
+}
+
+@media(max-width:667px){
+    .four{
+        height: 400px;
+        width: 100%;
+        background-image: url("https://www.geonetric.com/wp-content/uploads/website-plan2.jpg");
+    }
+    
+    .step{
+        margin-left:20px;
+        margin-top: 100px;
+        text-align-last:center ;
+        color: white;
+        text-align:center ;
+    }
+    
+    .read{
+        color: white;
+        margin-left: 200px;
+    }
+    .search{
+        display: none !important;
+    }
+}
+
+
+/* =========================== */
+
+.background_6{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(17,17,17);
+}
+.background_7{
+    height: 60px;
+    width: 100%;
+    background-color: #76232F;
+}
+.icons_1{
+     height: 60px;
+    border-radius: 50%;
+    background-color: #76232F;
+    width: 60px;
+    border: none; 
+    color: white;
+    font-size: 26px;
+}
+
+
+@media(max-width:667px){
+    .background_6{
+        height: 800px;
+        width: 100%;
+        background-color: rgb(17,17,17);
+    }
+    .footer_name{
+        position: relative;
+        top: 10px;
+    }
+    .card_footer_2{
+       display: none;
+    }
+    .card_footer_3{
+        position: relative;
+        top: 50px;
+        border-top: 1px solid white;
+     }
+     .icons_1{
+        margin-top: 30px;
+     }
+
+     .card{
+        margin-left:30px;
+        margin-top: 20px;
+     }
+
+
+
+
+     .load{
+        position: relative;
+        height: 50px;
+        width: 200px;
+        background-color: #76232F;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        left: -300px;
+        top: -20px;
+    }
+
+
+    .load:hover{
+        height: 50px;
+        width: 200px;
+        background-color:#afc6df ;
+        color: #76232F;
+        border-radius: 20px;
+        border:2px solid  #76232F;
+    }
+}
+
+.card-img-top{
+    height: 200px;
+}
+
+
+.card-body:hover{
+    background-color: #76232F;
+    color: white;
+}
+
+
+.day{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+
+.load{
+    height: 50px;
+    width: 200px;
+    background-color: #76232F;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-left: 480px;
+    margin-top: 50px;
+}
+
+
+
+.load:hover{
+    height: 50px;
+    width: 200px;
+    background-color:#afc6df ;
+    color: #76232F;
+    border-radius: 20px;
+    border:2px solid  #76232F;
+    margin-left: 480px;
+    margin-top: 50px;
+}

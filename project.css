@@ -1,0 +1,514 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.img{
+	height: 500px;
+	width: 100%;
+	background-image:url('https://www.geonetric.com/wp-content/uploads/Work-page-hero.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+  }
+.h1{
+	text-align: center;
+     color: white;
+      margin-top: 200px;
+      font-size: bold;
+}
+.p{
+	text-align: center;
+    color: white;
+	margin-left: 40px;
+	font-size:40PX;
+}
+.nav_1{
+    float: right;
+    background-color: #e7e8e873;
+}
+.border_1:hover{
+    border-bottom: 2px solid black;
+ }
+ .background_6{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(17,17,17);
+}
+.background_7{
+    height: 60px;
+    width: 100%;
+    background-color: #76232F;
+}
+.icons_1{
+     height: 60px;
+    border-radius: 50%;
+    background-color: #76232F;
+    width: 60px;
+    border: none; 
+    color: white;
+    font-size: 26px;
+}
+@media(max-width:667px){
+	.img{
+	height: 400px;
+	width: 100%;
+	background-image:url('https://www.geonetric.com/wp-content/uploads/Work-page-hero.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    }
+.h1{
+	text-align: center;
+     color: white;
+      margin-top: 200px;
+      font-size: bold;
+}
+
+.buttons_1{
+	margin-left: 370px;
+}
+.p{
+	text-align: center;
+    color: white;
+	margin-left: 40px;
+	font-size:20PX;
+}
+.background_6{
+	height: 800px;
+	width: 100%;
+	background-color: rgb(17,17,17);
+}
+.footer_name{
+	position: relative;
+	top: 10px;
+}
+.card_footer_2{
+   display: none;
+}
+.card_footer_3{
+	position: relative;
+	top: 50px;
+	border-top: 1px solid white;
+ }
+ .icons_1{
+	margin-top: 30px;
+ }
+}
+.bg_1{
+	height: 400px;
+	width: 100%;
+	float: left;
+	background-image: url('https://www.geonetric.com/wp-content/uploads/sub-mgmt-hero-700x328.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -150px;
+}
+.h2{
+	margin-top: 90px;
+	margin-left:5px;
+	color: white;
+} 
+@media(max-width:667px){
+	.bg_1{
+	height: 400px;
+	width: 100%;
+	float: left;
+	background-image: url('https://www.geonetric.com/wp-content/uploads/sub-mgmt-hero-700x328.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 50px;
+}
+.h2{
+	margin-top: 90px;
+	margin-left:5px;
+	color: white;
+} 
+}
+.bg_2{
+	height: 400px;
+	width: 100%;
+	float: left;
+	background-image:url('https://www.geonetric.com/wp-content/uploads/SanAntonio-700x328.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -150px;
+}
+.h6{
+	position: relative;
+	color: white;
+	top:65px;
+	left: 5px;
+} 
+.h1_2{
+	position: relative;
+  color: white;
+  top: 68px;
+  left: 5px;
+}
+.h6_2{
+	position: relative;
+	color: white;
+	top: 70px;
+ left: 5px;
+}
+@media(max-width:667px){
+	.bg_2{
+	height: 400px;
+	width: 100%;
+	float: left;
+	background-image:url('https://www.geonetric.com/wp-content/uploads/SanAntonio-700x328.jpg') ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -150px;
+}
+.h6{
+	position: relative;
+	color: white;
+	top:65px;
+	left: 5px;
+} 
+.h1_2{
+	position: relative;
+  color: white;
+  top: 68px;
+  left: 5px;
+}
+.h6_2{
+	position: relative;
+	color: white;
+	top: 70px;
+ left: 5px;
+}
+}
+.bg_3{
+	height: 400px;
+	width: 100%;
+	background-image: url('https://www.geonetric.com/wp-content/uploads/ParkviewBanner-700x328.jpg');
+   float: left;
+   background-size: cover;
+   margin-top: -50px;
+}
+.h5_3{
+	color: white;
+	position: relative;
+	top: 160px;
+	left: 20px;
+}
+.h2_3{
+	color: white;
+	position: relative;
+	top: 167px;
+	left: 20px;
+}
+.h6_3{
+	color: white;
+	position: relative;
+	top: 170px;
+	left: 20px;
+}
+@media(max-width:667px){
+	.bg_3{
+	height: 400px;
+	width: 100%;
+	background-image: url('https://www.geonetric.com/wp-content/uploads/ParkviewBanner-700x328.jpg');
+   float: left;
+   background-size: cover;
+   margin-top: -50px;
+}
+.h5_3{
+	color: white;
+	position: relative;
+	top: 160px;
+	left: 20px;
+}
+.h2_3{
+	color: white;
+	position: relative;
+	top: 167px;
+	left: 20px;
+}
+.h6_3{
+	color: white;
+	position: relative;
+	top: 170px;
+	left: 20px;
+}
+}
+.bg_4{
+	height: 400px;
+	width: 100%;
+background-image: url('https://www.geonetric.com/wp-content/uploads/ConcordBanner-700x328.jpg');
+ float: left;
+ background-size: cover;
+ margin-top: -50px;
+}
+.h5_4{
+	color: white;
+	position: relative;
+	top: 160px;
+	left: 20px;
+}
+.h2_4{
+	color: white;
+	position: relative;
+	top: 167px;
+	left: 20px;
+}
+.h6_4{
+	color: white;
+	position: relative;
+	top: 170px;
+	left: 20px;
+}
+@media(max-width:667px){
+	.bg_4{
+	height: 400px;
+	width: 100%;
+background-image: url('https://www.geonetric.com/wp-content/uploads/ConcordBanner-700x328.jpg');
+ float: left;
+ background-size: cover;
+ margin-top: -50px;
+}
+.h5_4{
+	color: white;
+	position: relative;
+	top: 160px;
+	left: 20px;
+}
+.h2_4{
+	color: white;
+	position: relative;
+	top: 167px;
+	left: 20px;
+}
+.h6_4{
+	color: white;
+	position: relative;
+	top: 170px;
+	left: 20px;
+}
+}
+
+
+.bg_5{
+	height: 400px;
+	width: 100%;
+background-image: url('https://www.geonetric.com/wp-content/uploads/Avera-KnowledgeNet-700x328.jpg');
+ float: left;
+ background-size: cover;
+ margin-top: -70px;
+}
+.h5_5{
+	color:white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+.h2_5{
+	color: white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+.h6_5{
+	color: white;
+	position: relative;
+	top: 77px;
+	left: 20px;
+}
+@media(max-width:667px){
+	.bg_5{
+	height: 400px;
+	width:100%;
+background-image: url('https://www.geonetric.com/wp-content/uploads/Avera-KnowledgeNet-700x328.jpg');
+ float: left;
+ background-size: cover;
+ margin-top: -50px;
+}
+.h5_5{
+	color:white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+.h2_5{
+	color: white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+.h6_5{
+	color: white;
+	position: relative;
+	top: 77px;
+	left: 20px;
+}
+}
+
+.bg_6{
+	height: 400px;
+	width: 100%;
+background-image: url('https://www.geonetric.com/wp-content/uploads/SilverCross-ContentHub2-700x328.jpg');
+ float: left;
+ background-size: cover;
+ margin-top: -70px;
+}
+.h5_6{
+	color:white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+.h2_6{
+	color: white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+.h6_6{
+	color: white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+@media(max-width:667px){
+	.bg_6{
+	height: 400px;
+	width: 100%;
+background-image: url('https://www.geonetric.com/wp-content/uploads/SilverCross-ContentHub2-700x328.jpg');
+ float: left;
+ background-size: cover;
+ margin-top: -50px;
+}
+.h5_6{
+	color:white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+.h2_6{
+	color: white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+.h6_6{
+	color: white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+}
+.bg_7{
+	height: 400px;
+	width: 100%;
+background-image: url('https://www.geonetric.com/wp-content/uploads/Evergreen-700x328.jpg');
+ float: left;
+ background-size: cover;
+ margin-top: -70px;
+}
+.h5_7{
+	color:white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+.h2_7{
+	color: white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+.h6_7{
+	color: white;
+	position: relative;
+	top: 77px;
+	left: 20px;
+}
+
+@media(max-width:667px){
+	.bg_7{
+	height: 400px;
+	width: 100%;
+background-image: url('https://www.geonetric.com/wp-content/uploads/Evergreen-700x328.jpg');
+ float: left;
+ background-size: cover;
+ margin-top: -70px;
+}
+.h5_7{
+	color:white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+.h2_7{
+	color: white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+.h6_7{
+	color: white;
+	position: relative;
+	top: 77px;
+	left: 20px;
+}
+}
+.bg_8{
+	height: 400px;
+	width: 100%;
+background-image: url('https://www.geonetric.com/wp-content/uploads/FisherTitus-700x328.jpg');
+ float: left;
+ background-size: cover;
+ margin-top: -70px;
+}
+.h5_8{
+	color:white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+.h2_8{
+	color: white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+.h6_8{
+	color: white;
+	position: relative;
+	top: 77px;
+	left: 20px;
+}
+@media(max-width:667px){
+	.bg_8{
+	height: 400px;
+	width: 100%;
+background-image: url('https://www.geonetric.com/wp-content/uploads/FisherTitus-700x328.jpg');
+ float: left;
+ background-size: cover;
+ margin-top: -70px;
+}
+.h5_8{
+	color:white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+.h2_8{
+	color: white;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+.h6_8{
+	color: white;
+	position: relative;
+	top: 77px;
+	left: 20px;
+}
+.last_btn{
+	position: relative;
+	left: -200px;
+}
+}
+
+
